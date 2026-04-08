@@ -1,1 +1,24 @@
 
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Document</title>
+	</head>
+	<body>
+		<h1>常用输入输出语句的使用</h1>
+		<script>
+		    alert('老东西！');
+			var name=prompt('你是凑企鹅你是凑企鹅你是谁啊：')
+			//直接输入到文档中
+			document.write(`Hello, ${name}<br>`);
+			document.write(`如果你输入gggg<br>`);
+			document.write(`如果显示的是咕咕嘎嘎说明你已经是一名合格的凑企鹅了<br>`);
+			document.write(`可以随意的咕咕嘎嘎<br>`);
+			//在控制台输出
+			console.log('如果不是咕咕嘎嘎说明你还不是合格的凑企鹅');
+			console.log('每天至少要刷100条凑企鹅的视频');
+			</script>
+	</body>
+</html>
