@@ -1,0 +1,332 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.header {
+	width: 100%;
+}
+
+.header_box {
+	width: 100%;
+	height: 180px;
+	line-height:100px
+	background-color: yellow;
+	background-image: url("../img/屏幕截图_2-12-2025_74642_i0.hdslb.com.jpeg");
+	bottom: 20px;
+}
+
+.header_box ul li {
+	float: left;
+	margin-left: 20px;
+
+}
+
+.header_box ul li a {
+	color: white;
+}
+.mast dl {
+	float: left;
+}
+#menu ul li ul.xtx{
+	position: absolute;
+	display: none;
+}
+#menu ul li:hover ul.xtx{
+	display:block;
+	z-index: 100;
+	background-color: #5555ff;
+	width: 160px;
+}
+.job{
+	display: flex;
+	position: relative;
+}
+.job dl {
+	/* float: left; */
+	/* margin-left: 20px; */
+	position: absolute;
+}
+.tas_2{
+	left: 70px;
+}
+.tas_3{
+	left: 140px;
+}
+.tas_4{
+	left: 210px;
+}
+.tas_5{
+	left: 280px;
+}
+.tas_6{
+	left: 350px;
+}
+.tas_7{
+	left: 420px;
+}
+.tas_8{
+	left: 490px;
+}
+.job dl dd {
+	color: white;
+	text-align: center;
+}
+
+.job dl dt a img:hover {
+	;
+	transform: scale(1.1);
+	box-shadow: 0px 0px 10px 10px;
+	color: #969696;
+}
+
+.logo_input {
+	margin-top: 10px;
+	margin-left: 200px;
+	/* 需要定位容器 */
+	position: relative;
+}
+
+.logo_input i {
+	/* 需要定位的元素 */
+	position: absolute;
+	top: 8px;
+	left: 8px;
+}
+
+.logo_input input {
+	border: 1px solid black;
+	width: 300px;
+	height: 25px;
+	line-height: 50px;
+	font-size: large;
+	/* 留出空间 */
+	padding-left: 30px;
+}
+
+.menu_box {
+	width: 90%;
+	height: 200px;
+	/* background-color: yellow; */
+	margin: 0px auto;
+	list-style: none;
+}
+
+.nav-category dl {
+	float: left;
+}
+
+.nav-category dl dd {
+	text-align: center;
+}
+
+.nav-category {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: grid;
+	grid-template-columns: repeat(14, 1fr);
+	/* 14列，每列均分宽度 */
+	gap: 10px;
+	/* 项之间的间距（可按需调整） */
+	width: 100%;
+	/* 占满父容器 */
+	box-sizing: border-box;
+}
+
+/* 列表项样式：统一对齐+布局 */
+.nav-category li {
+	text-align: center;
+	padding: 8px 4px;
+	/* 上下内边距+左右小内边距，适配14列宽度 */
+	font-size: 13px;
+	/* 文字大小，避免拥挤 */
+	color: #2d3748;
+	cursor: pointer;
+	transition: all 0.2s ease;
+	border-radius: 4px;
+	box-sizing: border-box;
+	display: flex;
+	/* 图片+文字垂直居中 */
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+/* 图片样式：统一大小，避免错乱 */
+.nav-category li img {
+	width: 22px;
+	/* 适配14列，图片略缩小 */
+	height: 22px;
+	margin-bottom: 3px;
+	/* 图片与文字间距 */
+	object-fit: contain;
+	/* 保持图片比例 */
+}
+
+/* 悬浮交互效果 */
+.nav-category li:hover {
+	background-color: #f0f8fb;
+	color: #4299e1;
+}
+
+/* 小屏幕适配：避免拥挤 */
+@media (max-width: 1200px) {
+	.nav-category {
+		grid-template-columns: repeat(9, 1fr);
+		/* 中等屏幕9列 */
+	}
+}
+
+@media (max-width: 768px) {
+	.nav-category {
+		grid-template-columns: repeat(6, 1fr);
+		/* 小屏幕6列 */
+	}
+
+	.nav-category li img {
+		width: 20px;
+		height: 20px;
+	}
+
+	.nav-category li {
+		font-size: 12px;
+		padding: 6px 2px;
+	}
+}
+
+@media (max-width: 480px) {
+	.nav-category {
+		grid-template-columns: repeat(4, 1fr);
+		/* 超小屏幕4列 */
+	}
+}
+
+.sp_box {
+	width: 90%;
+	margin: 0px auto;
+	background-color: yellowgreen;
+	position: relative;
+	overflow: visible;
+}
+
+.sp_box div {
+	position: absolute;
+}
+
+.one {
+	tap: 150px;
+	left: 10px;
+}
+
+.one a img {
+	width: 500px;
+	height: 400px;
+}
+
+.two {
+	right: 50px;
+	/* margin: 10px; */
+}
+
+.two a img {
+	width: 250px;
+	height: 200px;
+}
+
+.thrss {
+	right: 570px;
+}
+
+.thrss a img {
+	width: 250px;
+	height: 200px;
+}
+
+.four {
+	right: 310px;
+}
+
+.four a img {
+	width: 250px;
+	height: 200px;
+}
+
+.five {
+	right: 570px;
+	top: 250px;
+}
+
+.five a img {
+	width: 250px;
+	height: 200px;
+}
+
+.six {
+	right: 310px;
+	top: 250px;
+}
+
+.six a img {
+	width: 250px;
+	height: 200px;
+}
+
+.seven {
+	right: 50px;
+	top: 250px;
+}
+
+.seven a img {
+	width: 250px;
+	height: 200px;
+}
+
+.eigt {
+	right: 5px;
+}
+#sts{
+	width: 100%;
+	height: 300px;
+	/* background-color: blue; */
+	margin-top: 500px;
+}
+.sts_box{
+	width: 90%;
+	height: 300px;
+	margin: 0px auto;
+}
+.sts_box div a{
+	float: left;
+	margin-right: 10px;
+}
+.sts_box div a img{
+	width: 250px;
+	height: 200px;
+}
+#foot{
+	width: 100%;
+	height: 120px;
+	background-color: #dfdfdf;
+}
+.foot_box{
+	width: 90%;
+	/* height: ; */
+	 /* background-color:yellow; */
+	 margin: 0px auto;
+}
+.foot_box ul li{
+	float: left;
+	margin-right: 400px;
+	color: gray;
+	font-size: larger;
+}
+.foot_box ul li.coke{
+	color: black;
+}
