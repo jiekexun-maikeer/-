@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" href="./css/bilibili.css" />
+		<link rel="stylesheet" href="./css/che.css">
+		<link rel="stylesheet" href="./fontawesome-free-5.15.4-web/css/all.min.css" />
+	</head>
+	<body>
+		<div id="header">
+			<div class="header_box">
+				<div>
+					<ul>
+						<li>
+							<img src="./img/首页.png">
+							<a href="#">首页</a>
+						</li>
+						<li><a href="#">番剧</a></li>
+						<li><a href="#">直播</a></li>
+						<li><a href="#">游戏中心</a></li>
+						<li><a href="">会员购物</a></li>
+						<li><a href="#">漫画</a></li>
+						<li><a href="赛事"></a></li>
+						<li>
+							<img src="./img/下载客户端.png">
+						</li>
+						<li><a href="#">下载客户端</a></li>
+						<li class="logo_input">
+							<i class="fa fa-search"></i>
+							<input type="text" placeholder="搜素...">
+
+						</li>
+				</div>
+				<div class="job">
+					<dl class="tas_1">
+						<dt>
+							<a href="#">
+								<img src="./img/屏幕截图_3-12-2025_195822_www.bilibili.com.jpeg">
+							</a>
+						</dt>
+
+					</dl>
+
+					<dl class="tas_2">
+						<dt>
+							<a href="#">
+								<img src="img/大会员3.png">
+							</a>
+						</dt>
+						<dd>大会员</dd>
+
+					</dl>
+					<dl class="tas_3">
+						<dt>
+							<a href="#">
+								<img src="./img/消息.png">
+							</a>
+						</dt>
+						<dd>消息</dd>
+
+					</dl>
+					<dl class="tas_4">
+						<dt>
+							<a href="#">
+								<img src="img/动态.png">
+							</a>
+						</dt>
+						<dd>动态</dd>
+
+					</dl>
+					<dl class="tas_5">
+						<dt>
+							<a href="#">
+								<img src="img/收藏2.png">
+							</a>
+						</dt>
+						<dd>收藏</dd>
+					</dl>
+					<dl>
+						<dl class="tas_6">
+							<dt>
+								<a href="#">
+									<img src="img/历史2.png">
+								</a>
+							</dt>
+							<dd>历史</dd>
+						</dl>
+						<dl class="tas_7">
+							<dt>
+								<a href="#">
+									<img src="img/创2.png">
+								</a>
+							</dt>
+							<dd>创作中心</dd>
+						</dl>
+						<dl class="tas_8">
+							<dt>
+								<a href="#">
+									<img src="img/投稿.png" />
+								</a>
+							</dt>
+						</dl>
+				</div>
+			</div>
+		</div>
+		<div id="menu">
+			<div class="menu_box">
+				<ul class="nav-category">
+					</dl>
+					<li>番剧</li>
+					<li>国创</li>
+					<li>综艺</li>
+					<li>动画</li>
+					<li>鬼畜</li>
+					<li>舞蹈</li>
+					<li>娱乐</li>
+					<li>科技数码</li>
+					<li>美食</li>
+					<li>汽车</li>
+					<li>体育运动</li>
+					<li>
+						<img src="./img/专栏.png" />专栏
+					</li>
+					<li>
+						<img src="img/活动.png" />活动
+					</li>
+					<li>
+						<img src="img/社区中心.png" />社区中心
+					</li>
+					<li>电影</li>
+					<li>电视剧</li>
+					<li>纪录片</li>
+					<li>游戏</li>
+					<li>音乐</li>
+					<li>影视</li>
+					<li>知识</li>
+					<li>资讯</li>
+					<li>小剧场</li>
+					<li>时尚美装</li>
+					<li>更多
+					<ul class="xtx">
+						<li>mnb</li>
+						<li>lb</li>
+						<li>xiaoz</li>
+					</ul>
+					</li>
+					<li>
+						<img src="img/直播.png" />直播
+					</li>
+					<li>
+						<img src="img/课堂.png" />课堂
+					</li>
+					<li>
+						<img src="img/热歌热榜.png" />专栏
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div id="sp">
+			<div class="sp_box">
+				<div class="one">
+					<a href="./shipin.html">
+						<img src="img/露西亚花嫁.jpeg" />
+					</a>
+				</div>
+				<div class="two">
+					<a href="./shiping2.html">
+						<img src="./img/14.png" />
+					</a>
+				</div>
+				<div class="thrss">
+					<a href="#">
+						<img src="img/8.png" />
+					</a>
+				</div>
+				<div class="four">
+					<a href="#">
+						<img src="img/9.png" />
+					</a>
+				</div>
+				<div class="five">
+					<a href="#">
+						<img src="./img/10.png" />
+					</a>
+				</div>
+				<div class="six">
+					<a href="#">
+						<img src="img/11.png" />
+					</a>
+				</div>
+				<div class="seven">
+					<a href="#">
+						<img src="img/12.png" />
+					</a>
+				</div>
+				<div class="eigt">
+					<a href="#">
+						<img src="./img/13.png" />
+					</a>
+				</div>
+			</div>
+		</div>
+		<div id="sts">
+			<div class="sts_box">
+				<div class="sts_1">
+					<a href="#">
+						<img src="img/玩具.png" />
+					</a>
+				</div>
+				<div class="sts_2">
+					<a href="#">
+						<img src="img/苦命鸳鸯.png" />
+					</a>
+				</div>
+				<div class="sts_3">
+					<a href="#">
+						<img src="img/科比.png" />
+					</a>
+				</div>
+				<div class="sts_4">
+					<a href="#">
+						<img src="img/年度热梗.png" />
+					</a>
+				</div>
+				<div class="sts_5">
+					<a href="#">
+						<img src="img/直播2.png" />
+					</a>
+				</div>
+			</div>
+		</div>
+		<div id="foot">
+			<div class="foot_box">
+				<ul>
+					<li>bilibili</li>
+					<li>传送门</li>
+				</ul>
+				<ul class="coke">
+					<li><a href="#">关于我们</a></li>
+					<li><a href="#">联系我们</a></li>
+					<li><a href="#">用户协议</a></li>
+					<li><a href="#">加入我们</a></li>
+					<li><a href="#">隐私协议</a></li>
+				</ul>
+			</div>
+		</div>
+		 
+	</body>
+</html>
